@@ -3,7 +3,7 @@ import styles from './LandingPage.module.scss'
 const LandingPage = () => {
     return (
         <div className={styles.container}>
-          <img src="/images/banner-image.jpeg" />
+          <img src="/images/banner-image.jpeg" alt="" />
           <div className={styles.intro}>
             <h1>WHO WE ARE</h1>
             <p>
@@ -27,7 +27,7 @@ const LandingPage = () => {
               </div>
           </div>
           <div className={styles.quote}>
-            <img src="/images/quote.png" />
+            <img src="/images/quote.png" alt=""/>
             <p>
               WE ARE COMMITTED TO SUPPORTING SOCIAL PROGRESS ACROSS THE GLOBE AND BELIEVE EXCHANGING DIVERSE 
               PERSPECTIVES WHILST SPENDING AWARENESS IS KEY FOR NEW GENERATIONS
