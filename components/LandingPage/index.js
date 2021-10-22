@@ -18,15 +18,12 @@ const LandingPage = () => {
           <div className={styles.images}>
               <div className={styles.peopleImage}>
                 <h1>OUR PEOPLE</h1>
-                {/* <img src="/images/people.jpeg" /> */}
               </div>
               <div className={styles.approachImage}>
                 <h1>OUR APPROACH</h1>
-                {/* <img src="/images/approach.jpeg" /> */}
               </div>
               <div className={styles.philosophyImage}>
                 <h1>OUR PHILOSOPHY</h1>
-                {/* <img src="/images/philosophy.jpeg" />    */}
               </div>
           </div>
           <div className={styles.quote}>
