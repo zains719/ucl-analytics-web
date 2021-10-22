@@ -11,7 +11,7 @@ const LandingPage = () => {
                 in developing countries in order to seek the potential for future involvement in international markets.
             </p>
             <p>
-              UCL Analytics studies the countries' fundamentals and how innovation took place in those areas considering 
+              UCL Analytics studies the countries&apos; fundamentals and how innovation took place in those areas considering 
               different parameters, including access to technology, demographic changes, government restructuring and raw materia
             </p>
           </div>
