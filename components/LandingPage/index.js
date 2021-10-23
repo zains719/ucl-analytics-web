@@ -24,7 +24,7 @@ const LandingPage = () => {
           </p>
           <p>
             UCL Analytics studies the countries&apos; fundamentals and how innovation took place in those areas considering 
-            different parameters, including access to technology, demographic changes, government restructuring and raw materia
+            different parameters, including access to technology, demographic changes, government restructuring and raw materials.
           </p>
         </div>
         <div className={styles.images}>
@@ -42,7 +42,12 @@ const LandingPage = () => {
           <img src="/images/quote.png" alt=""/>
           <p>
             WE ARE COMMITTED TO SUPPORTING SOCIAL PROGRESS ACROSS THE GLOBE AND BELIEVE EXCHANGING DIVERSE 
-            PERSPECTIVES WHILST SPENDING AWARENESS IS KEY FOR NEW GENERATIONS
+            PERSPECTIVES WHILST SPREADING AWARENESS IS KEY FOR NEW GENERATIONS
+          </p>
+          <p className={styles.caption}>
+            Nicoló L.Andretta
+            <br />
+            President, Founder
           </p>
         </div>
       </div>

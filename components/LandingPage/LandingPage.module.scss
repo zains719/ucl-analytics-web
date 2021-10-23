@@ -47,7 +47,7 @@
         margin-top: 30px;
 
         h1 {
-            font-weight: 300;
+            font-weight: 350;
             font-size: 27px;
         }
 
@@ -99,6 +99,14 @@
             font-size: 23px; 
             text-align: center;  
             letter-spacing: 3px;  
+        }
+
+        .caption {
+            margin-top: -10px;
+            font-size: 13px;
+            font-weight: 300;
+            text-align: left;
+            margin-right: auto;
         }
     }
 }
