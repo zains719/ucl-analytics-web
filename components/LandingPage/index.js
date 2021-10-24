@@ -1,22 +1,18 @@
 import styles from './LandingPage.module.scss'
-import useWindowSize from "react-use/lib/useWindowSize"
+import { FiChevronDown } from 'react-icons/fi'
+import { Link } from 'react-scroll';
+
 
 const LandingPage = () => {
-  const { width } = useWindowSize()
-
-  const largeImage = () => {
-    return width > 600
-  }
-
   return (
       <div className={styles.container}>
-        {largeImage() && (
-          <img src="/images/banner-image.jpeg" alt="" />
-        )}
-        {!largeImage() && (
-          <img src="/images/tes.jpeg" alt="" />
-        )}
-        <div className={styles.intro}>
+          <div className={styles.topBanner}>
+            <img src="/images/banner-image.jpeg" alt="" />
+            <Link to="whoWeAre" smooth offset={-70}>
+              <FiChevronDown className={styles.arrow} size="60px" color="white" />
+            </Link>
+          </div>
+        <div className={styles.intro} id="whoWeAre" >
           <h1>WHO WE ARE</h1>
           <p>
               UCL Analytics is a student-led society which carries out financial research 

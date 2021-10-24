@@ -35,9 +35,28 @@
     display: flex;
     flex-direction: column;
 
-    img {
-        width: 100vw;
-        margin-top: -53px;
+    .topBanner {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 100vw;
+            margin-top: -53px;
+        }
+
+        .arrow {
+            position: absolute;
+            z-index: 1;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            bottom: 3%;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
     }
 
     .intro {
