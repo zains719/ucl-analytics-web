@@ -37,13 +37,14 @@ const LandingPage = () => {
         <div className={styles.quote}>
           <img src="/images/quote.png" alt=""/>
           <p>
-            WE ARE COMMITTED TO SUPPORTING SOCIAL PROGRESS ACROSS THE GLOBE AND BELIEVE EXCHANGING DIVERSE 
-            PERSPECTIVES WHILST SPREADING AWARENESS IS KEY FOR NEW GENERATIONS
+            WE ARE COMMITTED TO FOSTERING GLOBAL SOCIAL PROGRESS. BEING INSPIRED BY AN EVER MORE CONNECTED WORLD, 
+            WE BELIEVE AREAS THAT WERE ONCE MARGINALISED HAVE NOW PROGRESSIVE PROSPECTS OF INCREASING THEIR EXPOSURE 
+            AND WILL CATALYSE NEW OPPORTUNITIES FOR FUTURE GENERATIONS.
           </p>
           <p className={styles.caption}>
-            Nicoló L.Andretta
+            NICOLÓ L.ANDRETTA
             <br />
-            President, Founder
+            PRESIDENT, FOUNDER
           </p>
         </div>
       </div>
