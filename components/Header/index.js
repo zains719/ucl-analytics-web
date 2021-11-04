@@ -22,13 +22,26 @@ const Header = () => {
                 size='40px' 
                 className={!menuOpen ? styles.menuIconOpenHide : styles.menuIconOpen}  
                 />   
-                <h1>UCL ANALYTICS</h1>    
+                <a href="/">ADOREA ANALYTICS</a>    
             </div>
             <div className={!menuOpen ? styles.menuHeaderHide : styles.menuHeaderShow}>
-                <a>Our People</a>
-                <a>Our Approach</a>
-                <a>Publications</a>
-                <a>Events</a>
+                <div class={styles.dropDown}>
+                    <a>Our People</a>
+                    <div class={styles.dropDownContent}>
+                        <a href="/ourPeople">Directory Board</a>
+                        <a href="#">Advisory Board</a>
+                    </div>
+                </div>
+                <div class={styles.dropDown}>
+                    <a>Our Approach</a>                    
+                    <div class={styles.dropDownContent}>
+                        <a href="#">Geographical Locations</a>
+                        <a href="#">Business Strategy</a>
+                    </div>
+                </div>
+                {/* geographical locations */}
+                {/* business strategy */}
+                <a>News</a>
                 <a>Contact</a>
             </div>
         </header>
