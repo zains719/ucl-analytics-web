@@ -39,10 +39,12 @@ const Header = () => {
                         <a href="#">Business Strategy</a>
                     </div>
                 </div>
-                {/* geographical locations */}
-                {/* business strategy */}
-                <a>News</a>
-                <a href="/contact">Contact</a>
+                <div class={styles.dropDown}>
+                    <a>News</a>                    
+                </div>
+                <div class={styles.dropDown}>
+                    <a href="/contact">Contact</a>                    
+                </div>
             </div>
         </header>
     )

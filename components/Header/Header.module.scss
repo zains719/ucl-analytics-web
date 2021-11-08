@@ -10,7 +10,7 @@
 
 %menuHeader {
     border-bottom: 1px solid rgb(211, 211, 211);
-    padding: 0.85% 2% 0.7% 2%;
+    padding: 0.85% 2% 0.85% 2%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,11 +18,11 @@
 
     .dropDown {
         position: relative;
+        z-index: 2;
 
         .dropDownContent {
             display: grid;
             place-items: center;              
-            top: 180%;
             left: 50%;
             -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
@@ -33,6 +33,7 @@
             background-color: rgb(255, 255, 255);
             opacity: 0;
             transition: opacity 0.3s;
+            padding-top: 10px;
 
             a {
                 margin-bottom: 10px;
@@ -139,13 +140,21 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 675px) {
     %menuHeader {
         padding: 4% 4% 50% 2%;
         display: grid;
         width: fit-content;
         height: 100vh;
         position: absolute;
+
+        .dropDown {
+            .dropDownContent {
+                a {
+                    // text-align: left;
+                }
+            }
+        }
     
         a {
             text-align: left;
