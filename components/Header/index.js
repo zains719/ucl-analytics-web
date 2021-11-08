@@ -42,7 +42,7 @@ const Header = () => {
                 {/* geographical locations */}
                 {/* business strategy */}
                 <a>News</a>
-                <a>Contact</a>
+                <a href="/contact">Contact</a>
             </div>
         </header>
     )

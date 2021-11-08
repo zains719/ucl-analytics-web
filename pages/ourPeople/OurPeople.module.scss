@@ -49,4 +49,157 @@
             }
         }
     }
+
+    .mainContent {
+        margin-top: 30px;
+        padding-left: 2%;
+        padding-right: 2%;
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .rightBorder {
+                font-weight: 350;
+                font-size: 27px;
+                padding-right: 30px;
+                border-right: 1px solid black;
+            }
+
+            h1 {
+                font-weight: 350;
+                font-size: 27px;
+                padding-left: 30px;
+            }
+        }
+
+        .people {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+
+            .person {
+                display: flex;
+                margin: 40px 50px 40px 50px;
+                width: 500px;
+
+                .profilePicture {
+                    width: 125px;
+                    height: 125px;
+                    border-radius: 50%;
+                    border: 2px solid #0F00C9;
+                    margin-right: 20px;
+                }
+
+                .text {
+                    h2 {
+                        font-size: 20px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+        .info {
+            max-width: 1000px;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            padding-left: 4%;
+            padding-right: 4%;
+
+            p {
+                font-size: 20px;
+                font-weight: 300;
+            }
+
+            .bottomInfo {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    margin-left: 30px;
+                    margin-right: 30px;
+                    font-size: 25px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .container {
+        .topBanner {
+            h1 {
+                font-size: 37px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .container {
+        .topBanner {
+            h1 {
+                display: none;
+            }
+        }
+        .mainContent {
+            .people {
+                .person {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    width: 400px;
+
+                    .profilePicture {
+                        width: 80px;
+                        height: 80px;
+                    }
+
+                    .text {
+                        h2 {
+                            font-size: 17px;
+                        }
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        .mainContent {
+            padding: 1%;
+
+            .people {
+                .person {
+                    display: grid;
+                    place-items: center;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    width: 200px;
+
+                    .profilePicture {
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+
+                    .text {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }   
 }

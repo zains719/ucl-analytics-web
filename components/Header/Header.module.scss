@@ -108,6 +108,7 @@
             font-weight: 500;
             margin-top: 15px;
             margin-bottom: 15px;
+            text-align: center;
             &:hover {
                 cursor: pointer;
             }
@@ -170,7 +171,7 @@
 @media screen and (max-width: 400px) {
     .container {
         .mainHeader {
-            h1 {
+            a {
                 margin-left: 40px;
                 font-size: 17px;
                 text-align: center;
