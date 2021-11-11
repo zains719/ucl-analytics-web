@@ -1,6 +1,7 @@
 import styles from './Header.module.scss'
 import { IoMenuOutline, IoCloseOutline } from 'react-icons//io5'
 import { useState } from 'react'
+import Link from 'next/link'
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -22,28 +23,34 @@ const Header = () => {
                 size='40px' 
                 className={!menuOpen ? styles.menuIconOpenHide : styles.menuIconOpen}  
                 />   
-                <a href="/">ADOREA ANALYTICS</a>    
+                <Link href="/">
+                    <a>ADOREA ANALYTICS</a>    
+                </Link>
             </div>
             <div className={!menuOpen ? styles.menuHeaderHide : styles.menuHeaderShow}>
-                <div class={styles.dropDown}>
+                <div className={styles.dropDown}>
                     <a>Our People</a>
-                    <div class={styles.dropDownContent}>
-                        <a href="/ourPeople">Directory Board</a>
-                        <a href="#">Advisory Board</a>
+                    <div className={styles.dropDownContent}>
+                        <Link className={styles.Link} href="/ourPeople">
+                            <a>Directory Board</a>
+                        </Link>  
+                        <a>Advisory Board</a>
                     </div>
                 </div>
-                <div class={styles.dropDown}>
+                <div className={styles.dropDown}>
                     <a>Our Approach</a>                    
-                    <div class={styles.dropDownContent}>
-                        <a href="#">Geographical Locations</a>
-                        <a href="#">Business Strategy</a>
+                    <div className={styles.dropDownContent}>
+                        <a>Geographical Locations</a>
+                        <a>Business Strategy</a>
                     </div>
                 </div>
-                <div class={styles.dropDown}>
+                <div className={styles.dropDown}>
                     <a>News</a>                    
                 </div>
-                <div class={styles.dropDown}>
-                    <a href="/contact">Contact</a>                    
+                <div className={styles.dropDown}>
+                    <Link className={styles.Link} href="/contact">
+                        <a>Contact</a>                  
+                    </Link>  
                 </div>
             </div>
         </header>

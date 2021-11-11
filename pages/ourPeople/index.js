@@ -58,14 +58,14 @@ const OurPeople = () => {
                     </Link>
                 </div>
                 <div className={styles.mainContent} id="meetOurTeam">
-                    {/* <div className={styles.header}>
+                    <div className={styles.header}>
                         <h1 className={styles.rightBorder} >MEET OUR TEAM</h1>
                         <h1>DIRECTORY BOARD</h1>
-                    </div> */}
+                    </div>
                     <div className={styles.people}>
-                        {people.map((person) => {
+                        {people.map((index, person) => {
                             return (
-                                <div className={styles.person}>
+                                <div key={index} className={styles.person}>
                                     <div className={styles.profilePicture}>
                                     </div>
                                     <div className={styles.text}>
@@ -91,9 +91,9 @@ const OurPeople = () => {
                             At Adorea Analytics we are committed to retaining a diverse workforce and fostering an inclusive workplace.
                         </p>
                         <div className={styles.bottomInfo}>
-                            <p>"15 Members"</p>
-                            <p>"10 Nationalities"</p>
-                            <p>"10 Degrees"</p>
+                            <p>&quot;15 Members&quot;</p>
+                            <p>&quot;10 Nationalities&quot;</p>
+                            <p>&quot;10 Degrees&quot;</p>
                         </div>
                     </div>
                 </div>

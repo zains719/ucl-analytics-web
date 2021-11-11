@@ -36,9 +36,9 @@ const LandingPage = () => {
         </div>
         <div className={styles.quote}>
           <p>
-            "We are committed to fostering global social progress. Being inspired by an ever more connected world, 
+            &quot;We are committed to fostering global social progress. Being inspired by an ever more connected world, 
             we believe areas that were once marginalised have now progressive prospects of increasing their exposure 
-            and will catalyse new opportunities for future generations."
+            and will catalyse new opportunities for future generations.&quot;
           </p>
           <p className={styles.caption}>
             NICOLÓ L.ANDRETTA

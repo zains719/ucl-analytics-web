@@ -141,6 +141,14 @@
                 font-size: 37px;
             }
         }
+
+        .mainContent {
+            .header {
+                 h1, .rightBorder {
+                     font-size: 22px;
+                 }
+            }
+        }
     }
 }
 
@@ -152,6 +160,11 @@
             }
         }
         .mainContent {
+            .header {
+                h1, .rightBorder {
+                    font-size: 18px;
+                }
+            }
             .people {
                 .person {
                     margin-left: 10px;
