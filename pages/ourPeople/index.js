@@ -63,7 +63,7 @@ const OurPeople = () => {
                         <h1>DIRECTORY BOARD</h1>
                     </div>
                     <div className={styles.people}>
-                        {people.map((index, person) => {
+                        {people.map((person, index) => {
                             return (
                                 <div key={index} className={styles.person}>
                                     <div className={styles.profilePicture}>
