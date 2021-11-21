@@ -18,11 +18,12 @@
             transform: translateX(-50%);
             bottom: 40%;
             font-weight: 300;
-            font-size: 65px;
+            font-size: 50px;
             color: white;
             letter-spacing: 10px;
             opacity: 1;
             animation: fadeIn 2s;
+            text-align: center;
         }
 
         @keyframes fadeIn {
@@ -74,6 +75,11 @@
             }
         }
 
+        .caption {
+            text-align: center;
+        }
+
+
         .people {
             display: flex;
             flex-wrap: wrap;
@@ -95,9 +101,18 @@
                 }
 
                 .text {
+                    h3 {
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+
                     h2 {
                         font-size: 20px;
                         font-weight: 400;
+                    }
+
+                    p {
+                        font-weight: 300;
                     }
                 }
             }
@@ -113,7 +128,6 @@
             padding-right: 4%;
 
             p {
-                font-size: 20px;
                 font-weight: 300;
             }
 
@@ -126,7 +140,7 @@
                 p {
                     margin-left: 30px;
                     margin-right: 30px;
-                    font-size: 25px;
+                    font-size: 20px;
                     font-weight: 400;
                 }
             }
@@ -134,14 +148,18 @@
     }
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1095px) {
     .container {
         .topBanner {
             h1 {
-                font-size: 37px;
+                font-size: 30px;
             }
         }
+    }
+}
 
+@media screen and (max-width: 940px) {
+    .container {
         .mainContent {
             .header {
                  h1, .rightBorder {
@@ -151,8 +169,17 @@
         }
     }
 }
+@media screen and (max-width: 800px) {
+    .container {
+        .topBanner {
+            h1 {
+                font-size: 22px;
+            }
+        }
+    }
+}
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 685px) {
     .container {
         .topBanner {
             h1 {
@@ -165,6 +192,7 @@
                     font-size: 18px;
                 }
             }
+
             .people {
                 .person {
                     margin-left: 10px;

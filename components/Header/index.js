@@ -29,23 +29,29 @@ const Header = () => {
             </div>
             <div className={!menuOpen ? styles.menuHeaderHide : styles.menuHeaderShow}>
                 <div className={styles.dropDown}>
-                    <a>Our People</a>
+                    <a>About Us</a>
                     <div className={styles.dropDownContent}>
                         <Link className={styles.Link} href="/ourPeople">
                             <a>Directory Board</a>
                         </Link>  
-                        <a>Advisory Board</a>
+                        <Link className={styles.Link} href="/storyVision">
+                            <a>Story & Vision</a>
+                        </Link>  
                     </div>
                 </div>
                 <div className={styles.dropDown}>
-                    <a>Our Approach</a>                    
+                    <a>Approach</a>                    
                     <div className={styles.dropDownContent}>
-                        <a>Geographical Locations</a>
-                        <a>Business Strategy</a>
+                        <Link className={styles.Link} href="/strategy">
+                            <a>Strategy</a>
+                        </Link>                  
+                        <Link className={styles.Link} href="/principlesValues">
+                            <a>Principles & Values</a>
+                        </Link>                 
                     </div>
                 </div>
                 <div className={styles.dropDown}>
-                    <a>News</a>                    
+                    <a>News & Insights</a>                    
                 </div>
                 <div className={styles.dropDown}>
                     <Link className={styles.Link} href="/contact">

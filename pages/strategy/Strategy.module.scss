@@ -1,3 +1,4 @@
+
 .container {
     align-items: center;
     justify-content: center;
@@ -22,6 +23,7 @@
             letter-spacing: 10px;
             opacity: 1;
             animation: fadeIn 2s;
+            text-align: center;
         }
 
         @keyframes fadeIn {
@@ -49,39 +51,50 @@
         }
     }
 
-    .content {
-        text-align: left;
-        margin-left: 50px;
-        margin-right: 50px;
+    .mainContent {
         margin-top: 30px;
+        padding-left: 2%;
+        padding-right: 2%;
+        text-align: center;
 
         h1 {
-            text-align: center;
             font-weight: 350;
             font-size: 27px;
         }
 
-        h3 {
-            font-weight: 250;
+        p {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1000px;
+        }
+
+        h2 {
+            font-weight: 350;
+            margin-top: 30px;
             margin-bottom: -10px;
         }
 
-        p {
-            max-width: 1000px;
-            font-weight: 300;
+        .divisions {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
 
-            a {
-                color: #0F00C9;
+            .division {
+                margin: 10px 50px 10px 50px;
+                width: 500px;
 
-                &:hover {
-                    text-decoration: underline;
+                h3 {
+                    font-weight: 500;
+                    margin-bottom: -10px;
                 }
             }
         }
     }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1330px) {
     .container {
         .topBanner {
             h1 {
@@ -91,7 +104,7 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1080px) {
     .container {
         .topBanner {
             h1 {
@@ -101,7 +114,17 @@
     }
 }
 
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 875px) {
+    .container {
+        .topBanner {
+            h1 {
+                font-size: 23px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
     .container {
         .topBanner {
             h1 {

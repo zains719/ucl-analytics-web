@@ -13,7 +13,7 @@ const LandingPage = () => {
             </Link>
           </div>
         <div className={styles.intro} id="whoWeAre" >
-          <h1>WHO WE ARE</h1>
+          <h1>&quot;WHO WE ARE&quot;</h1>
           <p>
               Adorea Analytics is a student-led venture which carries out financial research 
               in developing countries in order to seek the potential for future involvement in international markets.

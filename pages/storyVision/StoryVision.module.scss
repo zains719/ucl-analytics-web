@@ -1,3 +1,4 @@
+
 .container {
     align-items: center;
     justify-content: center;
@@ -17,11 +18,12 @@
             transform: translateX(-50%);
             bottom: 40%;
             font-weight: 300;
-            font-size: 50px;
+            font-size: 45px;
             color: white;
             letter-spacing: 10px;
             opacity: 1;
             animation: fadeIn 2s;
+            text-align: center;
         }
 
         @keyframes fadeIn {
@@ -34,23 +36,10 @@
             width: 100vw;
             margin-top: -53px;
         }
-
-        .arrow {
-            position: absolute;
-            z-index: 1;
-            left: 50%;
-            -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-            bottom: 3%;
-
-            &:hover {
-                cursor: pointer;
-            }
-        }
     }
 
     .content {
-        text-align: left;
+        text-align: center;
         margin-left: 50px;
         margin-right: 50px;
         margin-top: 30px;
@@ -81,7 +70,8 @@
     }
 }
 
-@media screen and (max-width: 1150px) {
+
+@media screen and (max-width: 1450px) {
     .container {
         .topBanner {
             h1 {
@@ -95,13 +85,23 @@
     .container {
         .topBanner {
             h1 {
-                font-size: 27px;
+                font-size: 25px;
             }
         }
     }
 }
 
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 835px) {
+    .container {
+        .topBanner {
+            h1 {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
     .container {
         .topBanner {
             h1 {

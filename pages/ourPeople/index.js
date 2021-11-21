@@ -5,43 +5,51 @@ import { Link } from 'react-scroll'
 
 const people = [
     {
-        title: "Founder & President",
-        name: "Person 1",
+        name: "Nicoló Andretta",
+        title: "Founder & CEO",
+        major: "Major in Economics and Politics",
         photoUrl: "",
     },
     {
-        title: "Cheif Executive Officer",
-        name: "Person 1",
+        name: "Marco Fontonesi",
+        title: "Chief Operations Officer",
+        major: "Major in Economics & Statistics",
         photoUrl: "",
     },
     {
-        title: "Corporate Analysis Executive Officer",
-        name: "Person 1",
+        name: "Georgi Zaykov",
+        title: "Economic Research Executive",
+        major: "Major in Economics & Statistics",
         photoUrl: "",
     },
     {
-        title: "Financials Analysis Executive Officer",
-        name: "Person 1",
+        name: "Leo Zeligmans",
+        title: "Markets Research Executive",
+        major: "Major in Data Science",
         photoUrl: "",
     },
     {
-        title: "Demographics Analysis Executive Officer",
-        name: "Person 1",
+        name: "Maria Valentina",
+        title: "Politics Research Executive",
+        major: "Major in Law",
         photoUrl: "",
     },
     {
-        title: "Political Analysis Executive Officer",
-        name: "Person 1",
+        name: "Neal Patel",
+        title: "Demographics Research Executive",
+        major: "Major in History",
         photoUrl: "",
     },
     {
+        name: "Zain Saleem",
         title: "Head of Technology",
-        name: "Person 1",
+        major: "Major in Computer Science",
         photoUrl: "",
     },
     {
-        title: "Head of Marketing",
-        name: "Person 1",
+        name: "Firstname Surname",
+        title: "Head of Publications",
+        major: "Major in",
         photoUrl: "",
     },
 ]
@@ -52,7 +60,7 @@ const OurPeople = () => {
             <div className={styles.container}>
                 <div className={styles.topBanner}>
                     <img src="/images/banner-image.jpeg" alt="" />
-                    <h1>OUR PEOPLE</h1>
+                    <h1>&quot;Working together is success&quot;</h1>
                     <Link to="meetOurTeam" smooth offset={-70}>
                         <FiChevronDown className={styles.arrow} size="60px" color="white" />
                     </Link>
@@ -62,6 +70,9 @@ const OurPeople = () => {
                         <h1 className={styles.rightBorder} >MEET OUR TEAM</h1>
                         <h1>DIRECTORY BOARD</h1>
                     </div>
+                    <p className={styles.caption}>
+                        Adorea's team represents the core of international experience and combines technical-academic expertise with financial areas.
+                    </p>
                     <div className={styles.people}>
                         {people.map((person, index) => {
                             return (
@@ -69,8 +80,9 @@ const OurPeople = () => {
                                     <div className={styles.profilePicture}>
                                     </div>
                                     <div className={styles.text}>
-                                        <h2>{person.title}</h2>
-                                        <p>{person.name}</p>
+                                        <h2>{person.name}</h2>
+                                        <h3>{person.title}</h3>
+                                        <p>{person.major}</p>
                                     </div>
                                 </div>
                             )
@@ -78,18 +90,12 @@ const OurPeople = () => {
                     </div>
                     <div className={styles.info}>
                         <p>
-                            Our team consists of students coming from two of the highest rank universities in London. 
-                            Both institutions, namely UCL and LSE welcome global citizens and leaders of tomorrow, 
-                            from all kinds of social and economical backgrounds.
+                            Our board of directors consists of driven and ambitious individuals who demonstrated a track record in 
+                            leadership positions and professional experience. They all share an interest in understanding the 
+                            complexities surrounding factors that stagnate or trigger progress in developing countries.
                         </p>
                         <p>
-                            Having embraced the significance and opportunity of studying in a multidisciplinary and multi-ethnic environment, 
-                            we are happy to continue a legacy of integration. We believe that selecting students from different backgrounds 
-                            and studies informs and enriches each other, providing the team with greater perspectives and observations.
-                        </p>
-                        <p>
-                            At Adorea Analytics we are committed to retaining a diverse workforce and fostering an inclusive workplace.
-                        </p>
+                            Each of them has full autonomy in managing their sector in research and has responsibility for its team of analysts.                        </p>
                         <div className={styles.bottomInfo}>
                             <p>&quot;15 Members&quot;</p>
                             <p>&quot;10 Nationalities&quot;</p>
