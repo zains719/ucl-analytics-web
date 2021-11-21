@@ -71,7 +71,7 @@ const OurPeople = () => {
                         <h1>DIRECTORY BOARD</h1>
                     </div>
                     <p className={styles.caption}>
-                        Adorea's team represents the core of international experience and combines technical-academic expertise with financial areas.
+                        Adorea&apos;s team represents the core of international experience and combines technical-academic expertise with financial areas.
                     </p>
                     <div className={styles.people}>
                         {people.map((person, index) => {

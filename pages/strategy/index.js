@@ -39,7 +39,7 @@ const Strategy = () => {
                         Our approach is diversified as the research is distinct both in terms of geographical locations and parameter frameworks. 
                     </p>
                     <p>
-                        We divided the research's focal point into two stages. The team will initially concentrate its analysis on China 
+                        We divided the research&apos;s focal point into two stages. The team will initially concentrate its analysis on China 
                         and India, as having been themselves developing countries in the recent past and now having turned into two of the 
                         fastest-growing economies of the world. We want to understand what made them reach this level of competitiveness so fast.
                     </p>
@@ -52,7 +52,7 @@ const Strategy = () => {
                     <h2>Research Process</h2>
                     <p>
                         We undertake a cross-sectional analysis by identifying how different natured parameters interconnect under a 
-                        specific period. This is achieved following a collaboration between the team's four divisions:
+                        specific period. This is achieved following a collaboration between the team&apos;s four divisions:
                     </p>
                     <div className={styles.divisions}>
                         {divisions.map((division, index) => {

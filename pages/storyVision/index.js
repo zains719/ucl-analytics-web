@@ -18,12 +18,12 @@ const StoryVision = () => {
                         and their emerging industries decided to initiate a macro-research team.  
                     </p>
                     <p>
-                        The term 'Adorea' dates back to the Latin language. In Roman antiquity, Adorea depicted the goddess of enterprise 
+                        The term &apos;Adorea&apos; dates back to the Latin language. In Roman antiquity, Adorea depicted the goddess of enterprise 
                         success and collective progress.
                     </p>
                     <p>
                         The twenty-first century brought along a rapidly continuing technological advancement that carries the promise 
-                        of increased productivity and efficiency. The team's mission concerns raising awareness on how more solid 
+                        of increased productivity and efficiency. The team&apos;s mission concerns raising awareness on how more solid 
                         globalisation, in terms of accessibility and innovation, will impact developing countries allowing a higher 
                         participation stake in international markets.
                     </p>
